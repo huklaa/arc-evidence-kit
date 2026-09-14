@@ -1,0 +1,21 @@
+{
+  "name": "arc-evidence-kit",
+  "version": "0.1.0",
+  "description": "Evidence-aware USDC activity primitives for Arc applications",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "files": ["src", "types", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/*.js"
+  },
+  "keywords": ["arc", "usdc", "stablecoin", "analytics", "evidence", "coverage"],
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
